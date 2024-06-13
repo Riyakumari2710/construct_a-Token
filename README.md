@@ -71,6 +71,18 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 * Lastly, your burn function should have conditionals to make sure the balance of the account is greater than or equal 
    to the amount that is supposed to be burned.
 
+  ## Help
+
+  If you encounter any issues or have questions, please refer to the Solidity documentation for more information on
+  Solidity language features and smart contract development.
+
+  ## Author
+  
+  Riya kumari @Riyakumari27
+
+  ## License
+  
+
 
    
 
