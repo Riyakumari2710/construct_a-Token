@@ -58,7 +58,7 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 
 
 
-   ### EXPLAINATION OF CODE
+### EXPLAINATION OF CODE
 
 * Your contract  have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
 * Your contract  have a mapping of addresses to balances (address => uint)
@@ -70,17 +70,18 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
    and from the balance of the address.
 * Lastly, your burn function should have conditionals to make sure the balance of the account is greater than or equal 
    to the amount that is supposed to be burned.
-
-  ## Help
+## Help
 
   If you encounter any issues or have questions, please refer to the Solidity documentation for more information on
   Solidity language features and smart contract development.
 
-  ## Author
+## Author
   
   Riya kumari @Riyakumari27
 
-  ## License
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
   
 
 
