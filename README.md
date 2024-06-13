@@ -1,6 +1,5 @@
 #CREATE-A-TOKEN
 
-
 ##DESCRIPTION
 
 This  solidity program is about implementation or creation of token  on ethereum blockhain.
@@ -13,8 +12,12 @@ designated address.
 
 ###EXECUTING PROGRAM
 
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.18;
+
 contract MyToken {
     // public variables here
+    
     string public tokenName;
     string public tokenAbbrv;
     uint256 public totalSupply;
@@ -44,9 +47,7 @@ contract MyToken {
 
 
 
-
 /*
-       REQUIREMENTS
     1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
     2. Your contract will have a mapping of addresses to balances (address => uint)
     3. You will have a mint function that takes two parameters: an address and a value. 
