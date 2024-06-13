@@ -1,10 +1,10 @@
-#CREATE-A-TOKEN
+# CREATE-A-TOKEN
 
 The Solidity program focuses on implementing Ethereum blockhain tokens through smart contracts, 
 demonstrating fundamental operations like minting, burning, and tracking addresses' balances. 
 It allows users to increase total supply and allocate tokens to specific addresses.
 
-##DESCRIPTION
+## DESCRIPTION
 
 This  solidity program is about implementation or creation of token  on ethereum blockhain.
 Here, smart contracts show the fundamentals operation for a token like minting new token ,
@@ -14,7 +14,9 @@ mint function , user can increase the total supply and allocate to specific addr
 burn function which allows the destruction of the existing token and deducting tokens from a 
 designated address.
 
-###EXECUTING PROGRAM
+## Getting Started
+
+### EXECUTING PROGRAM
 
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
@@ -56,7 +58,7 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 
 
 
-   ###EXPLAINATION OF CODE
+   ### EXPLAINATION OF CODE
 
 1. Your contract  have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
 2. Your contract  have a mapping of addresses to balances (address => uint)
