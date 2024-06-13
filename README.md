@@ -16,10 +16,10 @@ To run this program, you can use Remix, an online Solidity IDE. To get started, 
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file:
 
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.18;
 
-    
+
+    // SPDX-License-Identifier: MIT
+    pragma solidity ^0.8.18;
     contract MyToken {
     // public variables here
     
@@ -48,7 +48,8 @@ pragma solidity ^0.8.18;
         totalSupply -= _value;
         balances[_sender] -= _value;
     }
-}
+    }
+
 
 
    ###EXPLAINATION OF CODE
